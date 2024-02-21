@@ -1,20 +1,5 @@
 import logo from './logo.svg';
 import './App.css';
-import { initializeApp } from "firebase/app";
-
-
-const firebaseConfig = {
-  apiKey: "AIzaSyBigw7mJf0KYy4OBJv7Y6QI8nGDuDIXRbY",
-  authDomain: "cs-322-0.firebaseapp.com",
-  projectId: "cs-322-0",
-  storageBucket: "cs-322-0.appspot.com",
-  messagingSenderId: "416702487992",
-  appId: "1:416702487992:web:45bb3fdfc16dc674cd434d",
-  measurementId: "G-3NSQJDVRRL"
-};
-
-// Initialize Firebase
-const app = initializeApp(firebaseConfig);
 
 function App() {
   return (
